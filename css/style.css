@@ -21,8 +21,10 @@ ul {
   list-style: none; }
 
 a {
-  color: --text;
+  color: var(--text);
   text-decoration: none; }
+  a:visited {
+    color: var(--text); }
 
 img {
   max-width: 100%; }
@@ -197,6 +199,13 @@ main {
         margin: 2rem 0;
         list-style: circle;
         padding-left: 4rem; }
+  main .references {
+    margin: 6rem 0;
+    font-size: 2rem; }
+    main .references a {
+      color: var(--dark); }
+      main .references a:hover {
+        opacity: 0.8; }
 
 footer {
   grid-area: footer;

@@ -191,6 +191,17 @@ main{
            }
         }
     }
+    .references{
+        margin: 6rem 0;
+        font-size: 2rem;
+        a{
+            color: var(--dark);
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+       
+    }
 }
 footer{
     grid-area: footer;
